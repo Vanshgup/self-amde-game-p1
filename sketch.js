@@ -4,14 +4,14 @@ var player, shooterImg, shooter_shooting,zombie,zombie_Img;
 
 function preload(){
   
-  shooterImg = loadImage("assets/shooter_2.png")
-  shooter_shooting = loadImage("assets/shooter_3.png")
+  shooterImg = loadImage("shooter_2.png")
+  shooter_shooting = loadImage("shooter_3.png")
 
-  bgImg = loadImage("assets/bg.jpeg")
+  bgImg = loadImage("bg.jpeg")
 
-  zombie_Img=loadImage("assets/zombie.png");
-  //zombie2=loadImage("assets/zombie2.jpg");
-  //zombie3=loadImage("assets/zombie3.jpg");
+  zombie_Img=loadImage("zombie.png");
+  //zombie2=loadImage("zombie2.jpg");
+  //zombie3=loadImage("zombie3.jpg");
 }
 
 function setup() {
